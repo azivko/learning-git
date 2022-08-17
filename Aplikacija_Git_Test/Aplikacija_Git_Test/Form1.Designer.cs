@@ -30,6 +30,12 @@ namespace Aplikacija_Git_Test
         private void InitializeComponent()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.SuspendLayout();
+            // 
+=======
+>>>>>>> origin/main
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -43,9 +49,13 @@ namespace Aplikacija_Git_Test
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+<<<<<<< HEAD
 =======
             this.SuspendLayout();
             // 
+>>>>>>> origin/main
+=======
+>>>>>>> feature/a
 >>>>>>> origin/main
             // Form1
             // 
@@ -53,8 +63,14 @@ namespace Aplikacija_Git_Test
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.Controls.Add(this.button1);
 =======
+>>>>>>> origin/main
+=======
+=======
+            this.Controls.Add(this.button1);
+>>>>>>> feature/a
 >>>>>>> origin/main
             this.Name = "Form1";
             this.Text = "Form1";

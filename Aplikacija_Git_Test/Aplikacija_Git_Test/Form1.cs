@@ -13,6 +13,7 @@ namespace Aplikacija_Git_Test
     public partial class Form1 : Form
     {
         int a, b = 0;
+        int c = 5;
         public Form1(int prvi, int drugi)
         {
             a = prvi;
