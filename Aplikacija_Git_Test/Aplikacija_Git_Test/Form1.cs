@@ -22,7 +22,11 @@ namespace Aplikacija_Git_Test
 
         int izracunaj()
         {
-            return a+b;
+            return a + b;
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
