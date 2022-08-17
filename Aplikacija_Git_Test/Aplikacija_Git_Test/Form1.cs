@@ -30,5 +30,13 @@ namespace Aplikacija_Git_Test
         {
             return a + b + c;
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
