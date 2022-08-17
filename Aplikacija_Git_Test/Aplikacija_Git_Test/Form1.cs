@@ -20,10 +20,6 @@ namespace Aplikacija_Git_Test
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
         int izracunaj()
         {
             return a+b;
