@@ -13,11 +13,13 @@ namespace Aplikacija_Git_Test
     public partial class Form1 : Form
     {
         int a, b = 0;
-        public Form1(int a, int b)
+        public Form1(int prvi, int drugi)
         {
+            a = prvi;
+            b = drugi;
             InitializeComponent();
         }
-        
+
         int izracunaj()
         {
             return a+b;
