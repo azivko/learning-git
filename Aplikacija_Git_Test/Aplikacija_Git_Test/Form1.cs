@@ -12,14 +12,21 @@ namespace Aplikacija_Git_Test
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        int a, b = 0;
+        public Form1(int prvi, int drugi)
         {
+            a = prvi;
+            b = drugi;
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+        int izracunaj()
+        {
+            return a+b;
         }
     }
 }
